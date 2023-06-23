@@ -1,0 +1,16 @@
+
+.booking{
+    display: flex;
+    gap: 1rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 200;
+}
+
