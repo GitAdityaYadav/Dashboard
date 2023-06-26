@@ -3,6 +3,8 @@ import { Box,Divider,Stack,Typography} from "@mui/material";
 import styled from "@emotion/styled";
 import DriveFileRenameOutlineIcon from '@mui/icons-material/DriveFileRenameOutline';
 import { Link } from "react-router-dom";
+import DropDown from "./DropDowm";
+
 const Display=styled(Box)({
     display:"flex",
     justifyContent:"space-between",
@@ -37,12 +39,9 @@ function Right(){
      
      <Stack direction="row" justifyContent="space-between" spacing={2}>
      <div style={{width:"100%",marginRight:"1rem"}}>
-      <Display width="100%">
-      <Typography variant="h7" align="left">
-      Allowances
-      </Typography>
-      <DriveFileRenameOutlineIcon />
-      </Display>
+      
+      <DropDown />
+      
       </div>
       <div style={{width:"100%",marginRight:"1rem"}}>
       <Display width="100%">
