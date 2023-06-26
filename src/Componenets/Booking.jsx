@@ -9,7 +9,7 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 function Booking(){
   const { register, handleSubmit, formState: { errors } } = useForm();
   const onSubmit = (data) => console.log(data);
-  console.log(errors);
+
     return(
        <Box sx={{margin:"2rem"}}>
        <form onSubmit={handleSubmit(onSubmit)}>
